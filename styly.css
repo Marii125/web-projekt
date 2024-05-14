@@ -1,0 +1,167 @@
+/* GLOBAL STYLES */
+* {
+  font-optical-sizing: auto;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  /*   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, hsl(276, 64%, 65%)); */
+  background: linear-gradient(0.25turn, #0c3e71, hsl(276deg 86.21% 14.03%));
+}
+
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 15%;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+  /*   dsds */
+
+}
+
+
+.caption {
+  font-weight: 800;
+  color: white;
+}
+
+.mouse {
+  margin: 0;
+  position: absolute;
+  justify-content: center;
+  --x: 0px;
+  --y: 0px;
+  background-image: url(img/back.png);
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-position: var(--x) var(--y);
+
+}
+
+
+
+
+.description {
+  font-size: 20px;
+  color: white;
+
+}
+
+.description h3 {
+  color: white;
+}
+
+
+
+.link-test {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(0.25turn, #379bc5, #7581c9, #7e4aaf);
+  color: aliceblue;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+
+
+
+
+
+header {
+  display: flex;
+  color: #3a0ca3;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(0.25turn, #379bc5, #7581c9, #7e4aaf);
+  font-size: 27px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 8px 0px #00000054;
+  z-index: 1;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  margin-left: 10px;
+  font-weight: 750;
+  color: #3a0ca3;
+}
+
+span {
+  color: #7209b7;
+}
+
+.nav-link {
+  margin-right: 10px;
+  color: aliceblue;
+}
+
+
+.typewriter {
+  display: inline-block;
+}
+
+
+.typewriter h2 {
+  color: white;
+  /*  color: #831313; */
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .3s step-end infinite;
+  font-size: 30px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
