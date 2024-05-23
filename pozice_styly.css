@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  /*   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, hsl(276, 64%, 65%)); */
+  background: linear-gradient(0.25turn, #0c3e71, hsl(276deg 86.21% 14.03%));
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.opozici {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+
+.nadpis {
+  color: #f67f00;
+
+}
+
+.text {
+  color: #ffffff;
+
+}
+
+.image {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+}
+
+.image:hover {
+  border: 3px solid #6f6bb3;
+}
