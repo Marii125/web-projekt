@@ -1,19 +1,45 @@
+
+* {
+  font-optical-sizing: auto;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+
 body {
   margin: 0;
   /*   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, hsl(276, 64%, 65%)); */
   background: linear-gradient(0.25turn, #0c3e71, hsl(276deg 86.21% 14.03%));
 }
 
+
+/* Breakpoint: Mobil   0 - 539px*/
+.maincontainer {
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.o_pozici {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  min-width: 350px;
+
+}
+
+/* Breakpoint: PC      960px a viac*/
 .maincontainer {
   display: flex;
   flex-direction: row;
 
 }
 
-.opozici {
+.o_pozici {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
+  align-items: center;
 }
 
 
@@ -21,6 +47,7 @@ body {
 .nadpis {
   color: #f67f00;
 
+  
 }
 
 .text {
@@ -32,6 +59,7 @@ body {
   border-radius: 50%;
   width: 100%;
   max-width: 200px;
+
 }
 
 .image:hover {
