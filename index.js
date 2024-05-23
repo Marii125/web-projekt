@@ -10,3 +10,12 @@ document.addEventListener('mousemove', (e) => {
     mouseEl.style.setProperty('--y', y + 'px');
   }
 });
+
+const menu = () => {
+  const menuItems = document.querySelector('.mobile');
+  menuItems.classList.toggle('show');
+};
+
+const lookingForButton = document
+  .querySelector('.menu-hamburger')
+  .addEventListener('click', menu);
