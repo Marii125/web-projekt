@@ -442,7 +442,7 @@ i {
   .nav-li {
     list-style-type: none;
     position: relative;
-    background: linear-gradient(0.25turn, #0c3e71, hsl(276deg 86.21% 14.03%));
+    background: linear-gradient(0.25turn, #325476, #440074);
     box-shadow: 0px 2px 8px 0px #00000054;
     padding-top: 6px;
     padding-bottom: 6px;
