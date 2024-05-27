@@ -46,13 +46,13 @@ body {
 .logo a {
   margin-left: 15px;
   font-weight: 750;
-  color: #fff;
+  color: #d5e2f2;
   text-decoration: none;
 
 }
 
 span {
-  color: #ffd900;
+  color: #f88dad;
   ;
 }
 
@@ -239,14 +239,14 @@ i {
 
 .description-us {
   border-radius: 5%;
-  background: linear-gradient(0.25turn, #591c8f, hsl(276deg 100% 58.75%));
+  background: #d5e2f2;
 
   padding: 20px 25px 25px 25px;
   margin: 60px auto;
   max-width: 360px;
   min-height: 615px;
   font-size: 20px;
-  color: #fff;
+  color: #000000;
   text-align: center;
   box-shadow: 2px 2px 8px #000000;
   display: flex;
@@ -292,7 +292,7 @@ i {
 
 .text-bubble {
   width: 380px;
-  background: #fff;
+  background: #ffffff;
   height: 130px;
   border: 1px solid black;
   position: absolute;
@@ -303,8 +303,8 @@ i {
 
 
   font-size: 1.2em;
-  color: #fff;
-  background: #a53d38;
+  color: #000000;
+  background: #d5e2f2;
   padding: 20px;
   border-radius: 10px;
   max-width: 600px;
@@ -318,7 +318,7 @@ i {
 }
 
 .text-bubble::after {
-  border-right-color: #a53d38;
+  border-right-color: #d5e2f2;
   border-left: 0;
   left: -14px;
   top: calc(50% - 15px);
