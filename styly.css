@@ -239,8 +239,8 @@ i {
 
 .description-us {
   border-radius: 5%;
-  background: #d5e2f2;
-
+  /*   background: #d5e2f2; */
+  background: #afd2e7;
   padding: 20px 25px 25px 25px;
   margin: 60px auto;
   max-width: 360px;
