@@ -19,3 +19,12 @@ const menu = () => {
 const lookingForButton = document
   .querySelector('.menu-hamburger')
   .addEventListener('click', menu);
+
+
+//farebnost obrazkov
+// function changeImage() {
+//   document.getElementById("change").src = "img/backend_color.jpg";
+// }
+// function restoreImage() {
+//   document.getElementById("change").src = "img/backend.jpg";
+// }
