@@ -129,7 +129,7 @@ i {
   display: block;
   text-align: center;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 225px;
   padding: 10px;
   border-radius: 10px;
   background: linear-gradient(0.25turn, #379bc5, #7581c9, #7e4aaf);
@@ -239,8 +239,7 @@ i {
 
 .description-us {
   border-radius: 5%;
-  /*   background: #d5e2f2; */
-  background: #afd2e7;
+  background: #d5e2f2;
   padding: 20px 25px 25px 25px;
   margin: 60px auto;
   max-width: 360px;
@@ -255,21 +254,12 @@ i {
 }
 
 .git-link {
-  margin-bottom: 10px;
-  text-decoration: none;
-  color: hsl(276deg 86.21% 14.03%);
   align-self: flex-end;
-  border: 3px solid hsl(276deg 86.21% 14.03%);
-  padding: 10px;
-  border-radius: 6px;
-  transition: 0.3s;
-  background: #fff;
-  font-weight: 700;
+  font-size: 45px;
 }
 
 .git-link:hover {
-  background: hsl(276deg 86.21% 14.03%);
-  color: #fff;
+  font-size: 50px;
 }
 
 
@@ -486,7 +476,7 @@ i {
   }
 
   .description {
-    font-size: 14px;
+    font-size: 15px;
 
   }
 
@@ -495,9 +485,11 @@ i {
     font-weight: 700;
   }
 
+  .link-dotaznik {
+    max-width: 215px;
+  }
+
 }
-
-
 
 /* responsive O NÁS*/
 
@@ -510,6 +502,25 @@ i {
 
   .about {
     width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .description-us {
+    color: #f67f00;
+    border-bottom: 1px solid white;
+    color: white;
+    box-shadow: none;
+    background: 0;
+    border-radius: 0;
+  }
+
+
+
+  .git-link {
+    color: white;
   }
 
 }
