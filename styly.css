@@ -517,7 +517,10 @@ i {
     border-radius: 0;
   }
 
+  .description-us h2 {
+    color: #f67f00;
 
+  }
 
   .git-link {
     color: white;
